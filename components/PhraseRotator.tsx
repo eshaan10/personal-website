@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const HOLD_MS = 2800;
+const HOLD_MS = 1800;
 
 /**
  * Vertical overshoot of the clipping window, in em.

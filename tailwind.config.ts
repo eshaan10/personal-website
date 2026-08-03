@@ -89,12 +89,13 @@ const config: Config = {
         "rise-in": "rise-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) both",
         breathe: "breathe 4.5s cubic-bezier(0.45, 0, 0.55, 1) infinite",
         // Exit curve out, entrance curve in — the incoming phrase settles
-        // rather than arriving at a constant rate. The 150ms delay on the
-        // incoming keeps the two from occupying the line at full opacity
+        // rather than arriving at a constant rate. The delay on the incoming
+        // keeps the two from occupying the line at full opacity
         // simultaneously, which reads as blurred double text rather than as
-        // one panel replacing another.
-        "flip-out-up": "flip-out-up 400ms cubic-bezier(0.4, 0, 0.2, 1) both",
-        "flip-in-up": "flip-in-up 520ms cubic-bezier(0.16, 1, 0.3, 1) 150ms both",
+        // one panel replacing another; it scales with the durations so that
+        // separation is preserved.
+        "flip-out-up": "flip-out-up 260ms cubic-bezier(0.4, 0, 0.2, 1) both",
+        "flip-in-up": "flip-in-up 340ms cubic-bezier(0.16, 1, 0.3, 1) 100ms both",
       },
     },
   },
