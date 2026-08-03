@@ -64,7 +64,7 @@ CONTACT_FROM_EMAIL=
 - Text secondary: `#ADADB2` / `#98989E`
 - Borders/dividers: `rgba(255,255,255,0.08-0.14)`
 
-## Sitemap
+### Sitemap
 1. **Home** — hero, compact timeline slice, featured projects (3 cards),
    about teaser, contact CTA
 2. **Projects index** — all projects browsable
@@ -75,7 +75,7 @@ CONTACT_FROM_EMAIL=
 6. **Now** — what I'm currently working on/learning
 7. **Contact**
 
-## Development Roadmap
+### Development Roadmap
 
 **Phase 1 — foundation:**
 - Base layout, design tokens, fonts, glass panel component
