@@ -68,7 +68,7 @@ export default function Hero() {
           radius="sm"
           className="ease-smooth px-5 py-3 text-sm font-medium text-text-primary transition-[transform,background-color] duration-300 hover:-translate-y-0.5 hover:bg-white/[0.1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white/40"
         >
-          Resume
+          View Resume
         </GlassPanel>
       </div>
 
